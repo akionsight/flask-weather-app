@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+    background-color: lightskyblue;
+}
+
+#Title {
+    text-align: center;
+    font-size: larger;
+    color: red;
+}
+
+#Title:hover{
+    color: black;
+    transition: 0.97ms;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather in {{city}}</title>
+</head>
+<body>
+    <div id="Title">
+        <h1>Weather in {{city}}</h1>
+    </div>
+    <div>
+        <h1>the Temperature in {{city}} is :</h1>
+        <h1>{{temp_faren}}°F</h1>
+        <h1>{{temp_celcius}}°C</h1>
+        <h1>Humidity is {{humidity}}%</h1>
+      </div>
+</body>
+</html>
