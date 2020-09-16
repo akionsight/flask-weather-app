@@ -1,0 +1,43 @@
+body{
+    background-color: lightskyblue;
+}
+
+#Title {
+    text-align: center;
+    font-size: larger;
+    color: red;
+}
+
+#Title:hover{
+    color: black;
+    transition: 0.97ms;
+}
+
+#city-form{
+    text-align: center;
+}
+
+#text-box{
+    border: none;
+    width: 300px;
+    border: 2px solid red;
+    font-size: 20px;
+}
+
+#text-box:focus{
+    background-color: aquamarine;
+}
+#submit-button{
+    background-color: #8842d5;
+    border: none;
+    color: white;
+    padding: 18px 36px;
+    text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer;
+}
+
+label{
+    display: inline-block;
+    font-size: larger;
+}

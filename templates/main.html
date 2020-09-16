@@ -1,7 +1,17 @@
-{% extends "base.html" %}
+{% extends "base.html" %} 
 {% block content %}
-<form method="POST" id='city-form'>
-    <p><input type="text" name="city" id='text-box'></p>
-    <p><input type="submit" value="Submit" id='submit-button'></p>
+<form method="POST" id="city-form">
+  <label for="city">Enter City</label>
+  <p>
+    <input
+      type="text"
+      name="city"
+      id="text-box"
+      placeholder="your city"
+      size="50"
+    />
+  </p>
+
+  <p><input type="submit" value="Submit" id="submit-button" /></p>
 </form>
 {% endblock %}
