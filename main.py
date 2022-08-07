@@ -2,7 +2,7 @@ import weather as ws
 import sys
 
 def get_weather_final(city):
-    key = '86467558560848aad3999627b7a474f7'
+    key = ''
     city = city.title()
     temperature, temperature_celcius, humidity = ws.get(city, key)
 
